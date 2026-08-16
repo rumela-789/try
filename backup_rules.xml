@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<full-backup-content>
-    <!-- Only UI/preference settings are backed up. No typed text, no dictionaries,
-         no message content is ever stored or backed up. -->
-    <include domain="sharedpref" path="offline_translation_prefs.xml" />
-</full-backup-content>
