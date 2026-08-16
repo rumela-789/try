@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<input-method xmlns:android="http://schemas.android.com/apk/res/android"
-    android:settingsActivity="com.offlinetranslation.keyboard.ui.MainActivity">
-    <subtype
-        android:label="@string/subtype_bangla_english"
-        android:imeSubtypeLocale="bn_BD"
-        android:imeSubtypeMode="keyboard" />
-</input-method>
