@@ -1,7 +1,5 @@
 name: Build APK
 
-# Runs automatically on every push/PR to main, and can also be triggered manually
-# from the Actions tab ("Run workflow" button).
 on:
   push:
     branches: [ "main" ]
@@ -17,6 +15,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Unzip project
+        run: unzip -o OfflineTranslationKeyboard.zip -d .
+
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
@@ -30,10 +31,11 @@ jobs:
         uses: gradle/actions/setup-gradle@v4
 
       - name: Build debug APK
+        working-directory: OfflineTranslationKeyboard
         run: gradle assembleDebug --stacktrace
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: offline-translation-debug-apk
-          path: app/build/outputs/apk/debug/app-debug.apk
+          path: OfflineTranslationKeyboard/app/build/outputs/apk/debug/app-debug.apk
