@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_green">#0F9D58</color>
+    <color name="brand_green_dark">#0B7A45</color>
+    <color name="key_bg">#FFFFFF</color>
+    <color name="key_bg_dark">#2B2B2B</color>
+    <color name="key_special_bg">#E3F2ED</color>
+    <color name="keyboard_bg">#F0F0F0</color>
+    <color name="keyboard_bg_dark">#1C1C1C</color>
+</resources>

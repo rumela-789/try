@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Offline Translation</string>
+    <string name="subtype_bangla_english">বাংলা / English</string>
+    <string name="action_translate">অনুবাদ করুন (Translate)</string>
+
+    <!-- Home -->
+    <string name="home_title">Offline Translation</string>
+    <string name="home_subtitle">কীবোর্ড থেকে সরাসরি অফলাইনে অনুবাদ করুন — WhatsApp, Messenger, Telegram-এ</string>
+    <string name="setup_step_1_title">১. কীবোর্ড সক্রিয় করুন</string>
+    <string name="setup_step_1_desc">সিস্টেম সেটিংসে গিয়ে \"Offline Translation\" কীবোর্ড enable করুন</string>
+    <string name="setup_step_2_title">২. কীবোর্ড নির্বাচন করুন</string>
+    <string name="setup_step_2_desc">যেকোনো টেক্সট বক্সে চেপে ধরুন এবং কীবোর্ড হিসেবে বেছে নিন</string>
+    <string name="open_keyboard_settings">কীবোর্ড সেটিংসে যান</string>
+    <string name="choose_input_method">কীবোর্ড পরিবর্তন করুন</string>
+    <string name="keyboard_enabled_yes">কীবোর্ড সক্রিয় আছে ✓</string>
+    <string name="keyboard_enabled_no">কীবোর্ড এখনো সক্রিয় নয়</string>
+
+    <!-- Bottom nav -->
+    <string name="nav_home">হোম</string>
+    <string name="nav_languages">ভাষা</string>
+    <string name="nav_keyboard">কীবোর্ড</string>
+    <string name="nav_translation">অনুবাদ</string>
+    <string name="nav_privacy">প্রাইভেসি</string>
+
+    <!-- Languages -->
+    <string name="languages_title">অফলাইন ভাষা মডেল</string>
+    <string name="lang_bn_en">বাংলা ↔ English</string>
+    <string name="lang_bn_en_status_installed">বান্ডল করা আছে (Bundled) — সবসময় অফলাইন</string>
+    <string name="lang_coming_soon">শীঘ্রই আসছে</string>
+
+    <!-- Keyboard settings -->
+    <string name="keyboard_settings_title">কীবোর্ড সেটিংস</string>
+    <string name="pref_vibrate">কি চাপলে vibration</string>
+    <string name="pref_sound">কি চাপলে শব্দ</string>
+    <string name="pref_default_layout">ডিফল্ট লেআউট</string>
+
+    <!-- Translation settings -->
+    <string name="translation_settings_title">অনুবাদ সেটিংস</string>
+    <string name="pref_auto_detect">স্বয়ংক্রিয় ভাষা শনাক্তকরণ</string>
+    <string name="pref_auto_insert">অনুবাদের পর সরাসরি বসিয়ে দিন</string>
+    <string name="pref_show_original">Original ও Translated দুটোই দেখান</string>
+    <string name="pref_default_target">ডিফল্ট লক্ষ্য ভাষা</string>
+
+    <!-- Privacy -->
+    <string name="privacy_title">প্রাইভেসি</string>
+    <string name="privacy_body">এই অ্যাপ কোনো ইন্টারনেট পারমিশন চায় না। আপনার টাইপ করা বা অনুবাদ করা কোনো টেক্সট কখনো কোনো external server-এ পাঠানো হয় না — সম্পূর্ণ অনুবাদ প্রক্রিয়া আপনার ফোনের মধ্যেই সম্পন্ন হয়।</string>
+
+    <string name="translate_original">মূল লেখা</string>
+    <string name="translate_result">অনুবাদ</string>
+    <string name="translate_replace">Replace</string>
+    <string name="translate_copy">Copy</string>
+    <string name="translate_close">বন্ধ করুন</string>
+</resources>
